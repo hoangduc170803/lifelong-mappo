@@ -1,0 +1,23 @@
+numpy>=1.24
+networkx>=3.0
+scipy>=1.10
+matplotlib>=3.7
+pandas>=2.0
+gymnasium>=0.29
+pettingzoo>=1.24
+torch>=2.0
+tqdm>=4.65
+pyyaml>=6.0
+tensorboardX>=2.6
+
+# Vendored RL stack: marlbenchmark/on-policy is checked into `on-policy/`
+# at commit de66d7a4b23fac2513f56f96f73b3f5cb96695ac (see on-policy/PATCHES.md).
+# Add `on-policy/` to PYTHONPATH or use `python -m src.rl.mappo_onpolicy.train`,
+# which inserts it for you. No additional pip install needed.
+
+# Optional external baseline/backend packages
+# cbs-mapf>=0.5
+
+# Optional, install later for Sprint 4+
+# torch-geometric>=2.5
+# wandb>=0.16

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: >-
+  A Learned MAPPO Router Extends the Lifelong Operating Window in
+  Multi-Agent Pickup-and-Delivery Where Classical Planners Freeze:
+  A Two-Layer Study with a Pre-Registered Dispatcher Gate
+type: software
+authors:
+  - given-names: "Duc Nham"
+    family-names: "Hoang"
+year: 2026
+license: MIT
+repository-code: "https://github.com/hoangduc170803/lifelong-mappo"
+keywords:
+  - multi-agent pickup and delivery
+  - lifelong MAPF
+  - MAPPO
+  - graph attention
+  - PIBT
+  - LaCAM
+  - reinforcement learning
