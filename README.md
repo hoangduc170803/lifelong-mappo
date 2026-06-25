@@ -17,8 +17,8 @@ the graph-attention encoder):
 pip install torch torch-geometric
 ```
 
-The MARL backbone — **on-policy** (Yu et al., MAPPO) — is **vendored under `on-policy/`**, pinned to
-upstream commit `de66d7a` with three small local patches already applied: stripped the eager env
+The MARL backbone — **on-policy** (Yu et al., MAPPO) — is **vendored under `on-policy/`** with three
+small local patches already applied: stripped the eager env
 imports that would otherwise pull in `absl`/`smac`/`gym`, made `wandb` optional, and added the
 GAT-encoder hook to `R_Actor`. There is nothing to clone or patch — importing
 `src.rl.mappo_onpolicy` auto-inserts `on-policy/` onto `sys.path`. Only `torch`, `numpy`, and
@@ -113,7 +113,7 @@ This work builds on excellent open-source research code:
 - **on-policy / MAPPO** — Yu et al., <https://github.com/marlbenchmark/on-policy>
 - **LaCAM** — Okumura, reference implementation <https://github.com/Kei18/pylacam>
 - **RHCR** (lifelong MAPF / windowed planning) — Li et al., <https://github.com/Jiaoyang-Li/RHCR>
-- **PIBT** — Okumura et al.
+- **PIBT** — Okumura et al., reference implementation <https://github.com/Kei18/pypibt>
 - **OpenTCS** — open-source transport control system, <https://www.opentcs.org/>
 
 ---
