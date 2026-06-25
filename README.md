@@ -110,10 +110,10 @@ Released under the **MIT License** — see `LICENSE`.
 
 This work builds on excellent open-source research code:
 
-- **on-policy / MAPPO** — Yu et al., <https://github.com/marlbenchmark/on-policy>
-- **LaCAM** — Okumura, reference implementation <https://github.com/Kei18/pylacam>
-- **RHCR** (lifelong MAPF / windowed planning) — Li et al., <https://github.com/Jiaoyang-Li/RHCR>
-- **PIBT** — Okumura et al., reference implementation <https://github.com/Kei18/pypibt>
-- **OpenTCS** — open-source transport control system, <https://www.opentcs.org/>
+- **on-policy / MAPPO** - Yu et al., <https://github.com/marlbenchmark/on-policy>
+- **LaCAM** - Okumura, reference implementation <https://github.com/Kei18/pylacam>
+- **RHCR** (lifelong MAPF / windowed planning) - Li et al., <https://github.com/Jiaoyang-Li/RHCR>
+- **PIBT** - Okumura et al.
+- **OpenTCS** - open-source transport control system, <https://www.opentcs.org/>
 
 ---
