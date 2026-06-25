@@ -80,7 +80,9 @@ reachable). To swap maps, replace the file and update `DEFAULT_MAP_FILE` in
 `src/rl/mappo_onpolicy/env_adapter.py`.
 
 ---
-
+##S Visualization
+![](img/demo_hotspot_n20_seed0.gif)
+---
 ## Citation
 
 If you use this code, please cite the accompanying thesis/paper (see `CITATION.cff`):
