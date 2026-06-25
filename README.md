@@ -17,10 +17,10 @@ the graph-attention encoder):
 pip install torch torch-geometric
 ```
 
-The MARL backbone — **on-policy** (Yu et al., MAPPO) — is **vendored under `on-policy/`** with three
+The MARL backbone - **on-policy** (Yu et al., MAPPO) - is **vendored under `on-policy/`** with three
 small local patches already applied: stripped the eager env
 imports that would otherwise pull in `absl`/`smac`/`gym`, made `wandb` optional, and added the
-GAT-encoder hook to `R_Actor`. There is nothing to clone or patch — importing
+GAT-encoder hook to `R_Actor`. There is nothing to clone or patch - importing
 `src.rl.mappo_onpolicy` auto-inserts `on-policy/` onto `sys.path`. Only `torch`, `numpy`, and
 `tensorboardX` are used from it.
 
@@ -68,7 +68,7 @@ the per-cell throughput / success matrices.
 
 Full per-cell commands, seeds, pinned budgets, and the metric definitions (the 1024 vs 4096
 horizons, the PIBT-pinned budgets, and the Wilson-95 intervals) are described in the accompanying
-paper/thesis — see [Citation](#citation).
+paper/thesis - see [Citation](#citation).
 
 ---
 
@@ -102,7 +102,7 @@ If you use this code, please cite the accompanying thesis/paper (see `CITATION.c
 
 ## License
 
-Released under the **MIT License** — see `LICENSE`.
+Released under the **MIT License** - see `LICENSE`.
 
 ---
 
