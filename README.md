@@ -81,7 +81,7 @@ reachable). To swap maps, replace the file and update `DEFAULT_MAP_FILE` in
 
 ---
 ## Visualization
-![](img/demo_hotspot_n20_seed0.gif)
+![](img/demo_hotspot_n20_seed1.gif)
 ---
 ## Citation
 
